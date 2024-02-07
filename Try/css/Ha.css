@@ -1,0 +1,73 @@
+body {
+    background-image: url(../css/technology.jpg);
+} 
+
+/* .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px 0 100px;
+}
+
+nav .logo {
+    font-size: 30px;
+    color: #ffff;
+    margin-left: 20px;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li {
+    margin: 20px;
+    justify-content: space-between;
+    display: inline;
+}
+
+.sec {
+    width: 100%;
+    height: 90vh;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sec .profile {
+    display: flex;
+    justify-content: center;
+}
+
+.sec .profile img {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    background: #ffff;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.sec .name {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.button button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+} */
