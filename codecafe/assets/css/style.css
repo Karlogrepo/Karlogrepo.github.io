@@ -16,7 +16,7 @@ body {
 li, a, button {
     font-family: sans-serif;
     font-weight: 500px;
-    font-size: 14px;
+    font-size: 15px;
     color: #edf0f1;
     text-decoration: none;
 }
@@ -63,7 +63,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(0,136,169,0.8);
+    background-color: rgba(6, 106, 132, 0.8);
 }
 
 main {
@@ -74,8 +74,7 @@ main {
 
 #banner {
     background: url("../images/bglogo1.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100%;
     padding-bottom: 150px;
     padding-top: 5px;
     color: #ffffff;
@@ -112,11 +111,9 @@ main {
 }
 
 #banner a {
-    text-decoration: none;
     margin-right: 20px;
     padding: 5px 15px;
     background-color: #ffffff;
-    border: 1px solid #ffffff;
     font-size: 15px;
     font-weight: 600;
     font-style: italic;
@@ -129,7 +126,7 @@ main {
 
 #banner a:hover {
     background-color: #000000;
-    border: 2px solid #ffffff;
+    border: 3px solid #ffffff;
     color: #ffffff;
 }
 
@@ -141,7 +138,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     color: white;
     margin-top: 20px;
     margin-bottom: -40px;
@@ -205,7 +201,6 @@ main {
 .d-about {
     display: flex;
     justify-content: center !important;
-    margin-bottom: 1px;
 }
 
 #about-us div h1 {
@@ -218,7 +213,6 @@ main {
 #about-us div p {
     text-indent: 50px;
     text-align: justify;
-    text-justify: inter-word;
     padding-left: 50px;
     padding-right: 50px;
     font-size: 17px;
@@ -255,8 +249,7 @@ main {
     max-width: 15em;
     background-color: #ffffff;
     padding: 1em;
-    box-shadow: 0 1px 1px #e1e1e1;
-    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 5px 5px black;
 }
 
 .gallery-c img {
@@ -270,7 +263,6 @@ main {
 }
 
 footer{
-    bottom: 0px;
     width: 100%;
     background: #d1b48c;
     margin-top: 20px;
@@ -280,10 +272,6 @@ footer{
     display: flex;
     justify-content: space-evenly;
     align-content: center;
-}
-
-.s-media {
-    margin: 20px;
 }
 
 .s-media a {
