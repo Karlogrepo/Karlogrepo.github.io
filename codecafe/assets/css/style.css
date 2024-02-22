@@ -22,7 +22,7 @@ li, a, button {
 }
 
 header {
-    width: 1024px;
+    width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +68,7 @@ button:hover {
 
 main {
     height: 100%;
-    width: 1024px;
+    width: 1200px;
     margin:auto;
 }
 
