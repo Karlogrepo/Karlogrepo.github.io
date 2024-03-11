@@ -261,20 +261,55 @@ footer{
         flex-direction: column;
 
     }
+
+    #banner_section {
+        height: 300px;  
+    }
+
+    #product {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 15rem !important;
+    }
 }
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 600px) {
     #banner_section {
         height: 300px;  
     }
+
+    .card {
+        width: 11rem !important;
+        padding: 10px;
+    }
 } 
+
+@media only screen and (max-width: 767px) {
+    .card-title{
+        font-size: 20px;
+    }
+
+    .card-text {
+        font-size: 10px;
+    }
+}
+
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     #banner_section {
         height: 400px;  
+    }
+    
+    .card {
+        width: 15rem !important;
+        padding: 5px;
     }
 }
 
@@ -283,6 +318,11 @@ footer{
     #banner_section {
         height: 500px;  
     }
+
+    .card {
+        width: 18rem !important;
+    }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -290,4 +330,9 @@ footer{
     #banner_section {
         height: 600px;  
     }
+
+    .card {
+        width: 18rem !important;
+    }
+
 }
