@@ -324,6 +324,17 @@ footer{
     .d-img {
         padding: 50px;
     }
+
+    #about-us div h1 {
+        font-size: 20px;
+    }
+
+
+    #about-us div p {
+        font-size: 10px;
+    }
+
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
