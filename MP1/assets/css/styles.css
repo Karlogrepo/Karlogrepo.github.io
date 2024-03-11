@@ -311,6 +311,19 @@ footer{
         width: 15rem !important;
         padding: 5px;
     }
+
+}
+
+@media only screen and (max-width: 991px) {
+    .d-about, .d-about1, .d-img {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center !important;
+    }
+
+    .d-img {
+        padding: 50px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -322,6 +335,7 @@ footer{
     .card {
         width: 18rem !important;
     }
+
 
 }
 
