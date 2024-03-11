@@ -1,0 +1,293 @@
+@font-face {
+    font-family: firstfont;
+    src: url(../images/Retro-Team.otf);
+    font-family: secondfont;
+    src: url(../images/Bewise.ttf);
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #24252A;
+    scroll-behavior: smooth;
+}
+
+#banner_section a {
+    margin-right: 20px;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    font-size: 19px;
+    font-weight: 600;
+    font-style: italic;
+    color: #000000;
+    position: relative;
+    top: 400px;
+    left: 400px; 
+    border-radius: 25px;  
+    font-family: firstfont;
+}   
+
+#banner_section a:hover {
+    background-color: #000000;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+} 
+
+#product {
+    background-color: #2f4f4e;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#banner_section {
+    width: 100%;
+    background-image: url(../images/bglogo1-copy.png);
+    height: 600px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#about-us {
+    background-color: #5e9ea0;
+    margin-top: 20px;
+}
+
+.d-about {
+    display: flex;
+    justify-content: center !important;
+}
+
+#about-us div h1 {
+    padding-top: 90px;
+    font-size: 30px;
+    text-align: center;
+    color: #ecd0aa;
+}
+
+#about-us div p {
+    text-indent: 50px;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.d-img {
+    background-size: cover;
+     padding: 20px; 
+}
+
+.d-about1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center !important;
+}
+
+footer{
+    width: 100%;
+    background: #d1b48c;
+    margin-top: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+
+.s-media a {
+    padding: 10px;
+}
+
+.left h2 , .center h2 , .right h2{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.content img{
+    padding: 10px 10px 0 0;
+}
+
+#services {
+    background-color: #2f4f4e;
+}
+
+#drinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+    padding-top: 40px;
+    font-family: firstfont;
+}
+#drinks h1 {
+    font-size: 50px;
+}
+
+#section1, #section2, #section3{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product {
+    max-width: 12em;
+    background-color: #ffffff; 
+    padding: 1em;
+    box-shadow: 0 1px 1px #e1e1e1;
+    
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h4 {
+    font-size: 1.3em;
+    margin: 0.5em 0;
+}
+
+.product div {
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product button {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+}
+
+.product:hover {
+    background-color: lightslategray;
+    color: #ffffff;
+}
+
+.product:hover button{
+    color: #000000;
+    background-color: #ffffff;
+}
+
+#section-2 {
+    background-color: #d3d3d3;
+    margin-top: 20px;
+ }
+ 
+ #gallery {
+     display: flex;
+     flex-direction: row;
+    justify-content: center;
+     align-items: center;
+     justify-content: space-evenly;
+     padding-top: 40px;
+ }
+ 
+ .gallery-c {
+     max-width: 15em;
+     background-color: #ffffff;
+     padding: 1em;
+     box-shadow: 0 5px 5px black;
+ }
+ 
+ .gallery-c img {
+     max-width: 100%;
+ }
+ 
+ .gallery-c:hover {
+     background-color: #5e9ea0;
+     color: #ffffff;
+     transform: scale(1.2);
+ }
+
+ #about-us {
+    background-color: #5e9ea0;
+    margin-top: 20px;
+}
+
+.d-about {
+    display: flex;
+    justify-content: center !important;
+}
+
+#about-us div h1 {
+    padding-top: 90px;
+    font-size: 30px;
+    text-align: center;
+    color: #ecd0aa;
+}
+
+#about-us div p {
+    text-indent: 50px;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.d-img {
+    background-size: cover;
+     padding: 20px; 
+}
+
+.d-about1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #section1, #section2, #section3{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 300px) {
+    #banner_section {
+        height: 300px;  
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #banner_section {
+        height: 400px;  
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #banner_section {
+        height: 500px;  
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #banner_section {
+        height: 600px;  
+    }
+}
