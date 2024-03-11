@@ -111,7 +111,7 @@ footer{
 
 .left h2 , .center h2 , .right h2{
     text-transform: uppercase;
-    font-weight: 600;
+
 }
 
 .content img{
@@ -284,6 +284,23 @@ footer{
     #about-us div p {
         font-size: 10px;
     }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left, .center h2, .right h2 {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .left, .center, .right {
+        padding-top: 40px;
+    }
+
 }
 
 
@@ -305,6 +322,11 @@ footer{
     }
 
     .card-text {
+        font-size: 10px;
+    }
+
+    
+    .footer {
         font-size: 10px;
     }
 }
@@ -336,7 +358,9 @@ footer{
         padding: 50px;
     }
 
-
+    .footer {
+        font-size: 12px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
