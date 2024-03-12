@@ -256,11 +256,27 @@ footer{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    #section1, #section2, #section3{
-        display: flex;
-        flex-direction: column;
-
+    .product {
+        max-width: 7em;
+        background-color: #ffffff; 
+        padding: 0.3em;
+        box-shadow: 0 1px 1px #e1e1e1;
+        
     }
+
+    .product h4 {
+        font-size: 0.8em;
+        margin: 0.5em 0;
+    }
+
+    .product span {
+        font-size: 0.9em;
+    }
+
+    #drinks h1 {
+        font-size: 30px;
+    }
+
 
     #banner_section {
         height: 300px;  
@@ -307,6 +323,7 @@ footer{
     }
 
 
+
 }
 
 
@@ -340,6 +357,27 @@ footer{
     
     .footer {
         font-size: 10px;
+    }
+
+    .product {
+        max-width: 7em;
+        background-color: #ffffff; 
+        padding: 0.3em;
+        box-shadow: 0 1px 1px #e1e1e1;
+        
+    }
+
+    .product h4 {
+        font-size: 0.8em;
+        margin: 0.5em 0;
+    }
+
+    .product span {
+        font-size: 0.9em;
+    }
+
+    #drinks h1 {
+        font-size: 30px;
     }
 
 }
