@@ -285,10 +285,11 @@ footer{
     #product {
         display: flex;
         flex-direction: column;
+        
     }
 
     .card {
-        width: 15rem !important;
+        width: 14rem !important;
     }
 
     #about-us div h1 {
